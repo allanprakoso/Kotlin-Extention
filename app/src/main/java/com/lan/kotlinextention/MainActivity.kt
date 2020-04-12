@@ -17,16 +17,16 @@ class MainActivity : AppCompatActivity() {
 
 
         Kepala.setOnClickListener {
-            toast("Ini Adalah Kepala")
+            toast("Ini Adalah Kepala", 0 , -500)
         }
         Baju.setOnClickListener {
-            toast("Bajunya Warna Merah")
+            toast("Bajunya Warna Merah", 0, 0)
         }
         TanganKanan.setOnClickListener {
-            toast("Ini Adalah Tangan Kanan")
+            toast("Ini Adalah Tangan Kanan", -200, -50)
         }
         TanganKiri.setOnClickListener {
-            toast("Ini Adalah Tangan Kiri")
+            toast("Ini Adalah Tangan Kiri", 282, -50)
         }
     }
 }
